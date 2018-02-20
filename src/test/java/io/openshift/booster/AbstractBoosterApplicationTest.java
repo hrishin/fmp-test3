@@ -34,7 +34,7 @@ public abstract class AbstractBoosterApplicationTest {
 
     @Test
     public void testGreetingEndpointWithNameParameter() {
-        given().param("name", "john")
+        given().param("name", "John")
                 .when()
                 .get()
                 .then()
